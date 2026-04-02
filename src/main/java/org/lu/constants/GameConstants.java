@@ -1,4 +1,10 @@
 package org.lu.constants;
 
-public class GameConstants {
+/**
+ * Enthaelt globale Spielparameter
+ * (z. B. Startwerte, Maximalwerte, Levelanzahl,
+ * Karten pro Runde etc.).
+ */
+public class GameConstants
+{
 }

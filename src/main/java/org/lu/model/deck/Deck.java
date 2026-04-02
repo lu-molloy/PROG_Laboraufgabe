@@ -1,4 +1,8 @@
 package org.lu.model.deck;
 
-public class Deck {
+public class Deck
+{
+    /*
+    Kartenliste, Ziehen, Mischen
+     */
 }

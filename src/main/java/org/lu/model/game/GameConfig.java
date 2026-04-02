@@ -1,4 +1,8 @@
-package org.lu.model;
+package org.lu.model.game;
 
-public class GameConfig {
+/**
+ * Fuer Konstanten, Startwerte, Balancing-Parameter
+ */
+public class GameConfig
+{
 }

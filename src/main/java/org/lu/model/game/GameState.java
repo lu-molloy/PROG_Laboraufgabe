@@ -1,4 +1,10 @@
-package org.lu.model;
+package org.lu.model.game;
 
-public class GameState {
+/**
+ * Enthaelt den globalen Zustand: aktuelles Level, Spieler,
+ * Dungeon-Master, Karte, Runde
+ */
+public class GameState
+{
+
 }

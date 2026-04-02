@@ -1,4 +1,8 @@
 package org.lu.service;
 
-public class CardFactory {
+/**
+ * Erzeugt Karten je nach Klasse/Level.
+ */
+public class CardFactory
+{
 }

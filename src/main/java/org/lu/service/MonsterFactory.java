@@ -1,4 +1,8 @@
 package org.lu.service;
 
-public class MonsterFactory {
+/**
+ * Erzeugt Monster und Level-Bosse.
+ */
+public class MonsterFactory
+{
 }

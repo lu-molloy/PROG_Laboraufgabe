@@ -1,4 +1,8 @@
 package org.lu.control;
 
-public class InputController {
+public class InputController
+{
+    /*
+    Konsoleneingaben einlesen und validieren
+     */
 }

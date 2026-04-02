@@ -1,4 +1,8 @@
 package org.lu.service;
 
-public class BalanceService {
+/**
+ * Skaliert Werte und sorgt fuer faire Mechaniken.
+ */
+public class BalanceService
+{
 }

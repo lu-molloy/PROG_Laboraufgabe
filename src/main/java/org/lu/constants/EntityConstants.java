@@ -1,4 +1,9 @@
 package org.lu.constants;
 
-public class EntityConstants {
+/**
+ * Fuer Standardwerte von Player, Dungeon-Master,
+ * Minions und Monster.
+ */
+public class EntityConstants
+{
 }

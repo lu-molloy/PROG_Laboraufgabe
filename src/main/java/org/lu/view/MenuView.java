@@ -1,4 +1,8 @@
 package org.lu.view;
 
-public class MenuView {
+/**
+ * Fuer Startmenue, Klassenauswahl, Haendler, Belohnungen.
+ */
+public class MenuView
+{
 }

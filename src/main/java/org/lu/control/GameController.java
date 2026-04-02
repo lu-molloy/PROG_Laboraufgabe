@@ -1,4 +1,9 @@
 package org.lu.control;
 
-public class GameController {
+/**
+ * Hauptsteuerung: Spielstart, Levelwechsel,
+ * Sieg/Niederlage
+ */
+public class GameController
+{
 }

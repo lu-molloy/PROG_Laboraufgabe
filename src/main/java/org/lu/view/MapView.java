@@ -1,4 +1,8 @@
 package org.lu.view;
 
-public class MapView {
+/**
+ * Zeichnet DungeonMap in ASCII.
+ */
+public class MapView
+{
 }

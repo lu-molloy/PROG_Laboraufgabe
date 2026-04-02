@@ -1,4 +1,9 @@
 package org.lu.constants;
 
-public class CardConstants {
+/**
+ * Fuer Namen, Beschreibungen und Standardwerte von Karten
+ * (z. B. Mana-Kosten, Basisangriff von Minions).
+ */
+public class CardConstants
+{
 }

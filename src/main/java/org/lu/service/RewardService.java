@@ -1,4 +1,11 @@
 package org.lu.service;
 
-public class RewardService {
+/**
+ *
+ */
+public class RewardService
+{
+    /*
+    Gold, Karten, Waffen, Talente nach Kaempfen
+     */
 }

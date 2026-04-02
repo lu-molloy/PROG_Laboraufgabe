@@ -1,4 +1,10 @@
 package org.lu.constants;
 
-public class TextConstants {
+/**
+ * Enthaelt alle Strings fuer die Konsolenausgabe
+ * (Menues, Fehlermeldungen, Kampftexte,
+ * Haendlertexte, Raumtypen, ...)
+ */
+public class TextConstants
+{
 }

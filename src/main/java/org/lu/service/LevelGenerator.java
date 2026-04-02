@@ -1,4 +1,8 @@
 package org.lu.service;
 
-public class LevelGenerator {
+/**
+ * Baut Level, Raeume und Ereignisse.
+ */
+public class LevelGenerator
+{
 }

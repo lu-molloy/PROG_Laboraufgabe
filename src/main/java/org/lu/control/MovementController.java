@@ -1,4 +1,8 @@
 package org.lu.control;
 
-public class MovementController {
+public class MovementController
+{
+    /*
+    Bewegungen von Player, DM und Minions
+     */
 }

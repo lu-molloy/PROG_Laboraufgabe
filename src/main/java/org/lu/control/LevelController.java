@@ -1,4 +1,8 @@
 package org.lu.control;
 
-public class LevelController {
+public class LevelController
+{
+    /*
+    Raumwechsel, Ereignisse, Haendler, Belohnungen
+     */
 }

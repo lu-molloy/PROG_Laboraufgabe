@@ -1,4 +1,8 @@
 package org.lu.model.monster;
 
-public class Boss {
+public class Boss extends Monster
+{
+    /*
+    Spezialfaehigkeiten
+     */
 }

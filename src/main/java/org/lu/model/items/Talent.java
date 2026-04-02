@@ -1,4 +1,8 @@
 package org.lu.model.items;
 
-public class Talent {
+public class Talent
+{
+    /*
+    Passive oder aktive Effekte
+     */
 }

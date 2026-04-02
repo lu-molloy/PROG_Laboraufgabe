@@ -1,4 +1,4 @@
-package org.lu;
+package org.lu.main;
 
 public class Main
 {

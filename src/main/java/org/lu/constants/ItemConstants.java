@@ -1,4 +1,9 @@
 package org.lu.constants;
 
-public class ItemConstants {
+/**
+ * Enthaelt Waffen- und Artefaktwerte
+ * (z. B. Reichweite, Bonuswerte).
+ */
+public class ItemConstants
+{
 }

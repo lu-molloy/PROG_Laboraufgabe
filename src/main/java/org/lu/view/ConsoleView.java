@@ -1,4 +1,8 @@
 package org.lu.view;
 
-public class ConsoleView {
+/**
+ * Fuer allgemeine Ausgaben.
+ */
+public class ConsoleView
+{
 }

@@ -1,4 +1,8 @@
 package org.lu.model.items;
 
-public class Artifact {
+public class Artifact
+{
+    /*
+    Passive Boni
+     */
 }

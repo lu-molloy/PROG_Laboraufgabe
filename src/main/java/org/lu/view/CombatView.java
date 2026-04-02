@@ -1,4 +1,8 @@
 package org.lu.view;
 
-public class CombatView {
+/**
+ * Zeigt Kampfstatus, Handkarten, Minions.
+ */
+public class CombatView
+{
 }

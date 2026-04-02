@@ -1,4 +1,10 @@
 package org.lu.model.monster;
 
-public class Monster {
+import org.lu.model.entity.Entity;
+
+public class Monster extends Entity
+{
+    /*
+    Werte skalieren mit Level
+     */
 }

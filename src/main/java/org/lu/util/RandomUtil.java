@@ -1,4 +1,8 @@
 package org.lu.util;
 
-public class RandomUtil {
+public class RandomUtil
+{
+    /*
+    Zufallsfunktionen
+     */
 }

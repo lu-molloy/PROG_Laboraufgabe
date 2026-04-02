@@ -1,4 +1,8 @@
 package org.lu.util;
 
-public class InputUtil {
+public class InputUtil
+{
+    /*
+    Sichere Konsoleneingaben
+     */
 }
