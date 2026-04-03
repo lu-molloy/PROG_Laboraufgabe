@@ -12,6 +12,13 @@ public class EffectCard extends Card
 
     private EffectType type;
 
+    public EffectCard (String name, String description, int manaCost, int value, EffectType type)
+    {
+        super(name, description, manaCost);
+        this.value = value;
+        this.type = type;
+    }
+
     public void play (Entity caster, GameState state)
     {
         // fuehrt den Effekt aus

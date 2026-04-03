@@ -13,6 +13,13 @@ public abstract class Card
     private String description;
     private int manaCost;
 
+    public Card (String name, String description, int manaCost)
+    {
+        this.name = name;
+        this.description = description;
+        this.manaCost = manaCost;
+    }
+
     public abstract void play (Entity caster, GameState state);
 
     // Getter und Setter

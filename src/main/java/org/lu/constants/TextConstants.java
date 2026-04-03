@@ -5,6 +5,6 @@ package org.lu.constants;
  * (Menues, Fehlermeldungen, Kampftexte,
  * Haendlertexte, Raumtypen, ...)
  */
-public class TextConstants
+public interface TextConstants
 {
 }

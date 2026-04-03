@@ -16,6 +16,12 @@ public class TalentCard extends Card
         // Talent hinzufuegen
     }
 
+    public TalentCard (String name, String description, int manaCost, Talent talentTemplate)
+    {
+        super(name, description, manaCost);
+        this.talentTemplate = talentTemplate;
+    }
+
     // Getter und Setter
 
     public Talent getTalentTemplate ()

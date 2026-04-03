@@ -11,6 +11,12 @@ public class WeaponCard extends Card
 {
     private Weapon weaponTemplate;
 
+    public WeaponCard (String name, String description, int manaCost, Weapon weaponTemplate)
+    {
+        super(name, description, manaCost);
+        this.weaponTemplate = weaponTemplate;
+    }
+
     public void play (Entity caster, GameState state)
     {
         // Waffe ausruesten

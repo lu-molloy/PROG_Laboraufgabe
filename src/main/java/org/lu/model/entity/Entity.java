@@ -3,6 +3,7 @@ package org.lu.model.entity;
 import org.lu.model.items.Artifact;
 import org.lu.model.items.Weapon;
 import org.lu.model.map.DungeonMap;
+import org.lu.util.Direction;
 
 import java.util.List;
 
@@ -22,6 +23,20 @@ public abstract class Entity
     private int y;
     private Weapon weapon;
     private List<Artifact> artifacts;
+
+    public Entity (String name, int hp, int maxHp, int attack, int defense, int movement, int x, int y, Weapon weapon, List<Artifact> artifacts)
+    {
+        this.name = name;
+        this.hp = hp;
+        this.maxHp = maxHp;
+        this.attack = attack;
+        this.defense = defense;
+        this.movement = movement;
+        this.x = x;
+        this.y = y;
+        this.weapon = weapon;
+        this.artifacts = artifacts;
+    }
 
     public boolean isAlive ()
     {

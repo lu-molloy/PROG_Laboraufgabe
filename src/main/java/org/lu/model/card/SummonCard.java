@@ -14,6 +14,16 @@ public class SummonCard extends Card
     private int minionDefense;
     private int minionRange; // optional
 
+    public SummonCard (String name, String description, int manaCost, String minionName, int minionHP, int minionAttack, int minionDefense, int minionRange)
+    {
+        super(name, description, manaCost);
+        this.minionName = minionName;
+        this.minionHP = minionHP;
+        this.minionAttack = minionAttack;
+        this.minionDefense = minionDefense;
+        this.minionRange = minionRange;
+    }
+
     public void play (Entity caster, GameState state)
     {
         // Minion erzeugen
