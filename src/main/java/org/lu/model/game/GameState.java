@@ -19,15 +19,13 @@ public class GameState
     private boolean gameOver;
     private boolean playerWon;
 
-    public GameState (Player player, DungeonMaster dungeonMaster, DungeonMap dungeonMap, Level currentLevel, int currentLevelNumber, boolean gameOver, boolean playerWon)
+    public GameState (Player player, DungeonMaster dungeonMaster, DungeonMap dungeonMap, Level currentLevel)
     {
         this.player = player;
         this.dungeonMaster = dungeonMaster;
         this.dungeonMap = dungeonMap;
         this.currentLevel = currentLevel;
-        this.currentLevelNumber = currentLevelNumber;
-        this.gameOver = gameOver;
-        this.playerWon = playerWon;
+        this.gameOver = false;
     }
 
     public void nextLevel (Level newLevel, DungeonMap newDungeonMap)
@@ -37,7 +35,7 @@ public class GameState
 
     public boolean isGameOver ()
     {
-
+        return gameOver;
     }
 
     // Getter uns Setter

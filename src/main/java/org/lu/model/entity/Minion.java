@@ -30,12 +30,12 @@ public class Minion extends Entity
 
     public boolean isAdjacentTo (Entity e)
     {
-
+        return false;
     }
 
     public boolean inInRange (Entity e)
     {
-
+        return false;
     }
 
     // Getter und Setter

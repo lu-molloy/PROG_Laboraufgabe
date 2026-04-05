@@ -6,6 +6,7 @@ import org.lu.model.items.Artifact;
 import org.lu.model.items.Talent;
 import org.lu.model.items.Weapon;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Player extends Entity
@@ -22,15 +23,15 @@ public class Player extends Entity
     private List<Talent> talents;
     private int gold;
 
-    public Player (String name, int hp, int maxHp, int attack, int defense, int movement, int x, int y, Weapon weapon, List<Artifact> artifacts, int level, int mana, int maxMana, Deck deck, Hand hand, List<Talent> talents, int gold)
+    public Player (String name, int hp, int maxHp, int attack, int defense, int movement, int x, int y, Weapon weapon, List<Artifact> artifacts, int level, int mana, int maxMana, Deck deck, int gold)
     {
         super(name, hp, maxHp, attack, defense, movement, x, y, weapon, artifacts);
         this.level = level;
         this.mana = mana;
         this.maxMana = maxMana;
         this.deck = deck;
-        this.hand = hand;
-        this.talents = talents;
+        this.hand = new Hand(5);
+        this.talents = new ArrayList<Talent>();
         this.gold = gold;
     }
 

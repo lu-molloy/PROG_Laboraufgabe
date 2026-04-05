@@ -2,6 +2,8 @@ package org.lu.model.deck;
 
 import org.lu.model.card.Card;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -16,32 +18,37 @@ public class Deck
 
     public Deck ()
     {
-
+        this.cards = new ArrayList<Card>();
     }
 
     public void shuffle ()
     {
-
+        Collections.shuffle(cards);
     }
 
     public void addCard (Card card)
     {
-
+        cards.add(card);
     }
 
-    public void drawCard ()
+    public Card drawCard ()
     {
         // gibt null, wenn leer
+        if (cards.isEmpty())
+        {
+            return null;
+        }
+        return cards.remove(0);
     }
 
     public boolean isEmpty ()
     {
-
+        return cards.isEmpty();
     }
 
     public int size ()
     {
-
+        return cards.size();
     }
 
     // Getter und Setter

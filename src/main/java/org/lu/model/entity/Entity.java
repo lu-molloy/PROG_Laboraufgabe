@@ -24,7 +24,8 @@ public abstract class Entity
     private Weapon weapon;
     private List<Artifact> artifacts;
 
-    public Entity (String name, int hp, int maxHp, int attack, int defense, int movement, int x, int y, Weapon weapon, List<Artifact> artifacts)
+    public Entity(String name, int hp, int maxHp, int attack, int defense,
+                  int movement, int x, int y, Weapon weapon, List<Artifact> artifacts)
     {
         this.name = name;
         this.hp = hp;
@@ -40,7 +41,7 @@ public abstract class Entity
 
     public boolean isAlive ()
     {
-
+        return hp > 0;
     }
 
     public void takeDamage (int amount)
@@ -55,17 +56,44 @@ public abstract class Entity
 
     public void move (Direction dir, DungeonMap map)
     {
+        int newX = x;
+        int newY = y;
 
+        switch (dir)
+        {
+            case NORTH:
+                newY--;
+                break;
+
+            case SOUTH:
+                newY++;
+                break;
+
+            case WEST:
+                newX--;
+                break;
+
+            case EAST:
+                newX++;
+                break;
+        }
+
+        if (map.isInside(newX, newY) && map.getTile(newX, newY).isWalkable())
+        {
+            this.x = newX;
+            this.y = newY;
+        }
     }
 
     public int getAttackValue ()
     {
         // beruecksichtigt Waffe, Artefakte, Talente
+        return 0;
     }
 
     public int getDefenseValue ()
     {
-
+        return 0;
     }
 
     // Getter und Setter

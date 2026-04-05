@@ -18,13 +18,15 @@ public class DungeonMaster extends Entity
     private int mana;
     private int maxMana;
 
-    public DungeonMaster (String name, int hp, int maxHp, int attack, int defense, int movement, int x, int y, Weapon weapon, List<Artifact> artifacts, Deck deck, Hand hand, int mana, int maxMana)
+    public DungeonMaster(String name, int hp, int maxHp, int attack, int defense,
+                         int movement, int x, int y, Weapon weapon, List<Artifact> artifacts,
+                         int mana, int maxMana, Deck deck)
     {
         super(name, hp, maxHp, attack, defense, movement, x, y, weapon, artifacts);
-        this.deck = deck;
-        this.hand = hand;
         this.mana = mana;
         this.maxMana = maxMana;
+        this.deck = deck;
+        this.hand = new Hand(5);
     }
 
     public void drawCards (int amount)
